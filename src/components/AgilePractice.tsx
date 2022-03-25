@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Button, Form, Col, Row } from "react-bootstrap";
+import { Button, Form, Row, Col } from "react-bootstrap";
 
 export function AgilePractice(): JSX.Element {
     type ChangeEvent = React.ChangeEvent<
@@ -43,9 +43,9 @@ export function AgilePractice(): JSX.Element {
                 <Row>
                     <Col>
                         {list.map((name: string) => (
-                            <Button key={name} style={{ marginBottom: "4px" }}>
-                                {name}
-                            </Button>
+                            <div key={name} style={{ marginBottom: "4px" }}>
+                                <Button>{name}</Button>
+                            </div>
                         ))}
                     </Col>
                 </Row>
