@@ -51,10 +51,10 @@ export function AgilePractice(): JSX.Element {
                 </Row>
                 <Form.Control value={buttonName} onChange={updateName} />
                 <Button size="sm" onClick={() => addButton()}>
-                    Add Button
+                    Add {buttonName} Button
                 </Button>{" "}
                 <Button size="sm" onClick={() => deleteButton()}>
-                    Delete Button
+                    Delete {buttonName} Button
                 </Button>{" "}
                 <Button size="sm" onClick={() => clearList()}>
                     Clear Buttons
