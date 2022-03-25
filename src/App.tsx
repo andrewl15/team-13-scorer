@@ -5,9 +5,7 @@ import { AgilePractice } from "./components/AgilePractice";
 function App(): JSX.Element {
     return (
         <div className="App">
-            <header className="App-header">
-                UD CISC275 with React Hooks and TypeScript
-            </header>
+            <header className="App-header">Welcome to the Team 13 Page</header>
             <AgilePractice></AgilePractice>
             <hr></hr>
             <p>
