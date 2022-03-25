@@ -1,5 +1,6 @@
 import React from "react";
 import "./App.css";
+import { AgilePractice } from "./components/AgilePractice";
 
 function App(): JSX.Element {
     return (
@@ -7,6 +8,8 @@ function App(): JSX.Element {
             <header className="App-header">
                 UD CISC275 with React Hooks and TypeScript
             </header>
+            <AgilePractice></AgilePractice>
+            <hr></hr>
             <p>
                 Edit <code>src/App.tsx</code> and save. This page will
                 automatically reload.
